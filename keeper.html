@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keeper</title>
+    <link rel="stylesheet" href="styles/keeper.css" />
+    <link rel="stylesheet" href="styles/keeper-grid.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="icon-container">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="32"
+          height="32"
+          fill="currentColor"
+        >
+          <path
+            d="M6 14l3 3v5h6v-5l3-3V9H6zm5-12h2v3h-2zM3.5 5.88l1.41-1.41 2.12 2.12L5.62 8zm13.46.71 2.12-2.12 1.41 1.41L18.38 8z"
+          ></path>
+        </svg>
+      </div>
+      <div class="keeper-text">Keeper</div>
+    </div>
+
+    <div class="container js-container">
+      <form class="form-textarea">
+        <input placeholder="Title" class="title-box js-title-box" />
+        <textarea
+          placeholder="Take a note..."
+          class="textarea js-textarea"
+          rows="1"
+        ></textarea>
+        <div class="plus-sign js-plus-sign">
+          <svg
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
+            focusable="false"
+            aria-hidden="true"
+            viewBox="0 0 24 24"
+            data-testid="AddIcon"
+            style="fill: #fff; align-items: center"
+          >
+            <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z"></path>
+          </svg>
+        </div>
+      </form>
+    </div>
+    <div class="todo-grid js-todo-grid"></div>
+
+    <script src="scripts/secondkeeper.js"></script>
+  </body>
+</html>
