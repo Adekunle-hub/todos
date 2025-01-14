@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 p{
   margin: 0;
   padding: 0;
@@ -36,4 +37,60 @@ p{
   font-weight: bolder;
 }.todo p{
 
+=======
+p{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.todo-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+  
+}
+
+@media (max-width: 63em){
+  .todo-grid{
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+  
+}
+@media (max-width: 38em){
+  .todo-grid{
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+  
+}
+
+.todo{
+  position: relative;
+  background-color: white;
+  margin: 1rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 3rem;
+  border-radius: 5px;
+  min-width: 150px;
+
+}.delete-button{
+  font-size: 1rem;
+  position: absolute;
+  right: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  bottom: 8px;
+  background-color: #f5ba13;
+  color: white;
+}.todo h1{
+
+  font-weight: bolder;
+}.todo p{
+
+>>>>>>> 37da62f (main)
 }
