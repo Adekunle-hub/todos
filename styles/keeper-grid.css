@@ -1,37 +1,67 @@
 p{
   margin: 0;
-  padding: 0;
+  padding: 1vw;
   
 }
 
 .todo-grid{
-  width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 1rem;
   row-gap: 1rem;
+  margin: 0 auto;
+  max-width: 80%;
   
 }.todo{
   position: relative;
   background-color: white;
- 
-  margin: 1rem;
-  padding-left: 0.5rem;
   padding-top: 0.5rem;
   padding-bottom: 3rem;
   border-radius: 5px;
 
+  
+
 }.delete-button{
-  font-size: 1rem;
+  font-size: min(3vw,1rem);
   position: absolute;
-  right: 5px;
+  right: min(2vw, 0.8rem);
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  bottom: 8px;
+  bottom: 0;
+  margin-block: 1vh;
+  font-weight: 600;
   background-color: #f5ba13;
   color: white;
 }.todo h1{
-
   font-weight: bolder;
+  font-size: 2rem;
+  padding-inline: 1vw;
+
+
+}
+@media(max-width: 760px){
+.todo h1{
+  font-size: min(1rem, 5vw);
+  font-weight: 600;
+  
+}.todo-grid{
+  grid-template-columns: repeat(2, 1fr);
+}
+}@media(max-width: 480px){
+  .form-textarea{
+    margin: 0 auto;
+    width: 90%;
+  }
+  .todo{
+    width: 80%;
+  
+  }
+  .todo-grid{
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 90%;
+  }.todo h1{
+    padding: 0;
+    font-weight: 700;
+  }
 }
