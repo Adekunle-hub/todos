@@ -13,7 +13,7 @@ todoArray.forEach((todo,index)=>{
       <h1>${todo.arrayInput}</h1>
       <p>${todo.arrayPlaceholder}</p>
       <button class="delete-button js-delete-button">
-      <i class="fas fa-trash"></i> Delete
+       <img src="./styles/images/delete-1-svgrepo-com.svg" class="delete-button-2" />
       </button>
       </div>
 `

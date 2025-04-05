@@ -4,7 +4,9 @@ const todoArray = JSON.parse(localStorage.getItem('todo')) || [
       <h1>Hello</h1>
       <p>Lets go</p>
       <button class="delete-button js-delete-button">
-      <i class="fas fa-trash"></i> Delete
+      <i class="fas fa-trash">
+      <img src="styles\images\delete-1-svgrepo-com.svg" />
+      </i> 
       </button>
       </div>`,
 ];
@@ -22,10 +24,14 @@ function renderPage(){
   const savedTodos = JSON.parse(localStorage.getItem('todo')) || [];
   savedTodos.innerHTML ='';
   todoArray.forEach((html)=>{
+
+    
     todoGrid.insertAdjacentHTML('beforeend', html);
   })
   
 }
+
+
 
 
 
