@@ -39,8 +39,8 @@ p{
   font-size: 2rem;
   padding-inline: 1vw;
 }.delete-button-2{
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 @media(max-width: 760px){
 .todo h1{
