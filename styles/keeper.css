@@ -2,7 +2,7 @@
 .montserrat-uniquifier {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -106,6 +106,7 @@ input{
   border: 5px solid white;
  
 }.title-box{
+
   margin-bottom: 0;
   padding-top: 0.6rem;
   padding-bottom: 0;

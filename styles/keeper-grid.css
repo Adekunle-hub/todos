@@ -44,7 +44,7 @@ p{
 }
 @media(max-width: 760px){
 .todo h1{
-  font-size: min(1rem, 5vw);
+  font-size: min(1rem, 10vw);
   font-weight: 600;
   
 }.todo-grid{
@@ -65,7 +65,7 @@ p{
     max-width: 90%;
     margin-bottom: 1rem;
   }.todo h1{
-    padding: 0;
+    padding-left: 1vw;
     font-weight: 700;
   }
 }
