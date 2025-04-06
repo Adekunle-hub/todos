@@ -51,7 +51,7 @@ input{
   padding: 4rem 0;
   border: none;
   margin-top: 3.5rem;
-  background-color: white;
+  
 }
 
 
@@ -97,7 +97,7 @@ input{
   min-height: 4rem;
 
 }.form-textarea{
-
+  background-color: white;
   padding: 0;
   box-shadow: 0 1px 5px #8a8989;
   position: relative;

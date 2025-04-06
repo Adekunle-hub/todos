@@ -22,8 +22,7 @@ p{
   
 
 }.delete-button{
-  width: 2rem;
-  height: 2rem;
+ 
   font-size: min(3vw,1rem);
   position: absolute;
   right: min(2vw, 0.8rem);
@@ -40,8 +39,8 @@ p{
   font-size: 2rem;
   padding-inline: 1vw;
 }.delete-button-2{
-  width: 100%;
-  height: 100%;
+  width: 2rem;
+  height: 2rem;
 }
 @media(max-width: 760px){
 .todo h1{
